@@ -8,7 +8,7 @@ layout(rgba32f, binding = 2) uniform image2D globalHistoryTexture1;
 layout(rgba32f, binding = 3) uniform image2D globalNormalDepthTexture;
 layout(rgba32f, binding = 4) uniform image2D globalFrameUniformsTexture;
 
-#include<vdb/de.glsl>
+#include<ssgi/de.glsl>
 
 void main()
 {

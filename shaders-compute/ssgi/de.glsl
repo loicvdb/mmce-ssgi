@@ -1,4 +1,4 @@
-#include<vdb/uniforms.glsl>
+#include<ssgi/uniforms.glsl>
 
 ///Original MM distance estimators
 

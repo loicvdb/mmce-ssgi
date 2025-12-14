@@ -9,7 +9,7 @@ layout(rgba32f, binding = 3) uniform image2D globalHistoryTexture1;
 layout(rgba32f, binding = 4) uniform image2D globalNormalDepthTexture;
 layout(rgba32f, binding = 5) uniform image2D globalFrameUniformsTexture;
 
-#include<vdb/de.glsl>
+#include<ssgi/de.glsl>
 
 // from https://www.colour-science.org/apps/
 const mat3 linear2acescg = mat3(0.613117812906440, 0.069934082307513, 0.020462992637737, 0.341181995855625, 0.918103037508582, 0.106768663382511, 0.045787344282337, 0.011932775530201, 0.872715910619442);

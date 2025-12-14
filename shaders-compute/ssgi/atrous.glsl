@@ -9,7 +9,7 @@ layout(rgba32f, binding = 3) uniform image2D globalHistoryTexture1;
 layout(rgba32f, binding = 4) uniform image2D globalNormalDepthTexture;
 layout(rgba32f, binding = 5) uniform image2D globalFrameUniformsTexture;
 
-#include<vdb/uniforms.glsl>
+#include<ssgi/uniforms.glsl>
 
 float depthMissatch(float t0, float t1, float allowance)
 {
